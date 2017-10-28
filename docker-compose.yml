@@ -21,8 +21,8 @@ services:
 
 
   psql:
-    image: governmentpaas/psql
-    command: psql
+    image: postgres:9.6.3
+    entrypoint: psql
     environment:
       PGHOST: db
       PGUSER: postgres
