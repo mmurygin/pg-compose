@@ -7,8 +7,9 @@ This repo contains compose file for running postgres with pgAdmin and psql
 1. Install docker
 
     ```
-    sudo curl -sSL https://get.docker.com/ | sh && sudo groupadd docker 2>/dev/null && sudo gpasswd -a ${USER} docker && sudo service docker restart
+    sudo curl -sSL https://get.docker.com/ | sh &&  sudo gpasswd -a ${USER} docker
     ```
+1. Logout and login
 
 1. [Install docker-compose](https://github.com/docker/compose/releases)
 
